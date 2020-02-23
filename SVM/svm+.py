@@ -21,7 +21,7 @@ ngmax = 5
 def char_tokenizer(s):
     return list(s)
 f = open('train.csv', '+r')
-f2 = open('dev.csv', '+r')
+f2 = open('test.csv', '+r')
 f3 = open('train1.csv', 'w')
 f4 = open('dev1.csv', 'w')
 f5 = open('f5.csv', 'w')
