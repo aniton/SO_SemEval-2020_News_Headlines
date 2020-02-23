@@ -10,6 +10,7 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 - **0** - both headlines have the same funniness.
 - **1**  - edited headline 1 is funnier.
 - **2**  - edited headline 2 is funnier.
+
 - **20 Feb 2020:** A test data release - **8 March 2020:** Submission deadline <br/>
 
 ## Contributors 
