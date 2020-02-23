@@ -18,4 +18,9 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 
 ## Preprocessing
 1. Removing ids, grades, all the following charachters  “ :. , — ˜ ”, digits and single quotation marks <br/>
-2. Making a substitute 
+2. Making a substitute  <br/>
+
+### Sub-task 1: Approach
+1. All preprocessing steps <br/>
+2. Analysing whether a substitute word with its left / right context is in a list of the most frequent bigrams [14 billion word iWeb corpus](https://www.english-corpora.org/iweb/)
+3.
