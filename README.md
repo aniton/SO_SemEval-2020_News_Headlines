@@ -23,7 +23,7 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 ### Sub-task 1: Approach
 1. All preprocessing steps <br/>
 2. Analysing whether a substitute word with its left / right context is in a list of the most frequent bigrams [14 billion word iWeb corpus](https://www.english-corpora.org/iweb/) and adding "1" or "0" to the edited headline <br/>
-3. [Deeppavlov logistic regression classifier](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/deeppavlov/bert.py) with [BERT English cased Embeddings](http://files.deeppavlov.ai/deeppavlov_data/bert/cased_L-12_H-768_A-12.zip)
+3. [DeepPavlov logistic regression classifier](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/deeppavlov/bert.py) with [BERT English cased Embeddings](http://files.deeppavlov.ai/deeppavlov_data/bert/cased_L-12_H-768_A-12.zip)
 
 ### Sub-task 2: Approach
 1. All preprocessing steps <br/>
