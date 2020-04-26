@@ -16,8 +16,6 @@ from sklearn.compose import ColumnTransformer
 import joblib
 from sklearn.svm import LinearSVC
 from sklearn.multiclass import OneVsOneClassifier, OneVsRestClassifier
-ngmin = 1 
-ngmax = 5
 def char_tokenizer(s):
     return list(s)
 f = open('train.csv', '+r')
