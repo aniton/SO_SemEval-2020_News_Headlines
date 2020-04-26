@@ -113,6 +113,7 @@ x_test = v.transform(doc_test)
 
 print("Training... ", end="")
 m = svm.SVC(C=0.1)
+m = OneVsRestClassifier(m)
 m.fit(x_train, y_train)
 
 pred = m.predict(x_test)
