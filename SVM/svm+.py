@@ -104,7 +104,7 @@ for i, line in enumerate(f2):
     id.append(words[0])
     f4.write(words2  + k + k1 + "\n")
 print(doc_test)
-v = CountVectorizer(tokenizer=char_tokenizer, ngram_range=(ngmin,ngmax))
+v = CountVectorizer(analyzer='word', tokenizer=char_tokenizer, ngram_range=(ngmin,ngmax))
 v.fit(doc_train + doc_test)
 x_train = v.transform(doc_train)
 x_test = v.transform(doc_test)
