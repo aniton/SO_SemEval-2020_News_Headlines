@@ -93,6 +93,8 @@ weighted_embedder = TfidfWeightedEmbedder(
 )
 x_train, y_train = train_iterator.get_instances(data_type="train")
 x_valid, y_valid = train_iterator.get_instances(data_type="test")
+x_train = weighted_embedder(x_train)
+x_valid = weighted_embedder(x_valid)
 cls = SklearnComponent(
     model_class="sklearn.linear_model:LogisticRegression",
     infer_method="predict",
