@@ -17,7 +17,7 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 **Anita Soloveva**  Lomonosov MSU nit-sol@mail.ru <br/>
 
 ## Preprocessing
-1. Removing ids, grades, all the following charachters  “ :. , — ˜ ”, digits and single quotation marks <br/>
+1. Removing ids,  all the following charachters  “ :. , — ˜ ”, digits and single quotation marks <br/>
 2. Making a substitute  <br/>
 
 ### Sub-task 1: Approach
