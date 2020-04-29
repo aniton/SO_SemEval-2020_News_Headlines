@@ -8,8 +8,8 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 - **20 Feb 2020:** A test data release - **8 March 2020:** Submission deadline <br/>
 ### Sub-Task 2: Predict funnier of the two edited versions of an original headline.
 - **0** - both headlines have the same funniness.
-- **1**  - edited headline 1 is funnier.
-- **2**  - edited headline 2 is funnier.
+- **1**  - edited headline 1 is the funnier.
+- **2**  - edited headline 2 is the funnier.
 
 - **20 Feb 2020:** A test data release - **8 March 2020:** Submission deadline <br/>
 
