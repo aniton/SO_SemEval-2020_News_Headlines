@@ -6,6 +6,7 @@ from sklearn.compose import make_column_transformer
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn import svm
+from sklearn.svm import SVR
 from sklearn.pipeline import Pipeline
 from sklearn.multiclass import OneVsOneClassifier
 import sys, time
@@ -110,8 +111,7 @@ x_train = v.transform(doc_train)
 x_test = v.transform(doc_test)
 
 print("Training... ", end="")
-m = svm.SVC(C=0.1)
-m = OneVsRestClassifier(m)
+m = SVR(kernel='rbf', C=0.1)
 m.fit(x_train, y_train)
 
 pred = m.predict(x_test)
