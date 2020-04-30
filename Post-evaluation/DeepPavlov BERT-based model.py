@@ -18,7 +18,7 @@ vocab = SimpleVocabulary(save_path="./binary_classes.dict")
 iterator.get_instances(data_type="train")
 vocab.fit(iterator.get_instances(data_type="train")[1])
 one_hotter = OneHotter(depth=vocab.len, 
-                       single_vector=True  # means we want to have one vector per sample
+                       single_vector=True  
                       )
 prob2labels = Proba2Labels(max_proba=True)
 bert_classifier = BertClassifierModel(
