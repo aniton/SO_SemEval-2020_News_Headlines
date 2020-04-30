@@ -13,7 +13,6 @@ from collections import defaultdict
 import numpy as np
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.compose import ColumnTransformer
-import joblib
 from sklearn.svm import LinearSVC
 from sklearn.multiclass import OneVsOneClassifier, OneVsRestClassifier
 def char_tokenizer(s):
