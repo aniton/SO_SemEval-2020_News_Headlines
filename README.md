@@ -16,7 +16,7 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 ## Contributors 
 **Anita Soloveva**  Lomonosov MSU nit-sol@mail.ru <br/>
 
-## Preprocessing
+### Preprocessing
 1. Removing ids,  all the following charachters  “ :. , — ˜ ”, digits and single quotation marks <br/>
 2. Making a substitute  <br/>
 
@@ -30,3 +30,5 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 2. Analysing whether a substitute word with its left / right context is in a list of the most frequent bigrams from [14 billion word iWeb corpus](https://www.english-corpora.org/iweb/) and adding "1" or "0" as features <br/>
 3. [SVR with bag of word/character n-gram features](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/SVR/svr%2B.py)  <br/>
 4. [Comparing](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/SVR/compare.py) funiness of the same original headlines with different substitutes
+
+### Post-evaluation period
