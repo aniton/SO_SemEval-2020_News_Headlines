@@ -32,3 +32,7 @@ For more details: [Coda Lab_(SemEval 2020 - Task 7)](https://competitions.codala
 4. [Comparing](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/SVR/compare.py) funiness of the same original headlines with different substitutes
 
 ### Post-evaluation period
+1. All preprocessing steps <br/>
+2. Analysing whether a substitute word with its left / right context is in a list of the most frequent bigrams from [14 billion word iWeb corpus](https://www.english-corpora.org/iweb/) and adding "1" or "0" as features <br/>
+3. [DeepPavlov multilingual-cased BERT-based model](https://github.com/aniton/SO_SemEval-2020_News_Headlines/blob/master/Post-evaluation/DeepPavlov%20BERT-based%20model.py)
+
